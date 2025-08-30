@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Name</title>
+    <link rel="stylesheet" href="Style landing p.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Your Logo</div>
+    <nav>
+        <ul>
+            <li><a href="#">Blog</a>
+                <div class="submenu">
+                    <ul>
+                        <li><a href="#">Tech</a>
+                            <div class="submenut">
+                                <ul>
+                                    <li><a href="#">Computer</a></li>
+                                    <li><a href="#">Mobile</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Lifestyle</a>
+                            <div class="submenut">
+                                <ul>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Health</a></li>
+                                    <li><a href="#">Food</a></li>
+                                    <li><a href="#">Travel</a></li>
+                                    <li><a href="#">Others</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Science</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Geography</a></li>
+            <li><a href="#">Services</a>
+                <div class="submenu">
+                    <ul>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">SEM</a></li>
+                        <li><a href="#">SMM</a></li>
+                        <li><a href="#">CM</a></li>
+                        <li><a href="#">AM</a></li>
+                        <li><a href="#">WordPress</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="search-box">
+                <input type="text" placeholder="Search...">
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="footer-menu">
+    <div class="footer-section company">
+        <h3>Company</h3>
+        <ul class="vertical-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="footer-section insights">
+        <h3>Insights</h3>
+        <ul class="vertical-menu">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Tech</a></li>
+            <li><a href="#">Case Studies</a></li>
+        </ul>
+    </div>
+    <div class="footer-section follow-us">
+        <h3>Follow Us</h3>
+        <ul class="horizontal-menu">
+            <li><a href="https://facebook.com" target="_blank"><img src="facebook-logo.png" alt="Facebook" /></a></li>
+            <li><a href="https://twitter.com" target="_blank"><img src="twitter-logo.png" alt="Twitter" /></a></li>
+            <li><a href="https://instagram.com" target="_blank"><img src="instagram-logo.png" alt="Instagram" /></a></li>
+            <li><a href="https://linkedin.com" target="_blank"><img src="linkedin-logo.png" alt="LinkedIn" /></a></li>
+            <li><a href="https://youtube.com" target="_blank"><img src="youtube-logo.png" alt="YouTube" /></a></li>
+            <li><a href="https://pinterest.com" target="_blank"><img src="pinterest-logo.png" alt="Pinterest" /></a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+    <p>&copy; <span id="year"></span> Your Website Name. All Rights Reserved.</p>
+</div>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
